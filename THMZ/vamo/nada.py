@@ -101,3 +101,16 @@ for i in range(len(mantica)):
                 mantica[i] = binarios[indice_binarios]
                 indice_binarios += 1
 print(mantica)
+
+
+
+#  colocar o indice do dado. (verificar em qual posição possui 1 ou 0)
+#  calcular os indices de variaveis (x) que somados são iguais ao indice do dado.
+#  somar +1 ao resultado para ter a posição correta do dado. Ex:
+
+#  mantiça : x  x  1
+#  Indices : 0  1  2
+
+#  calculo 0 + 1 = 2
+#  2+1 = 3, dado está na possição 3 (indice 2).
+
